@@ -7,7 +7,7 @@ TEMPLATE_DEBUG = False
 
 DATABASES['default'] = dj_database_url.config()
 
-SECRET_KEY = "i=9c8j#miy0b$e(*kn13s#=82w4nu7g7)11)!fm_+yuogtsw]@"
+SECRET_KEY = "x*(^3n(^)p%6vhig$l_#924qnw2jl-favui9mo2r4m4wx!wit("
 
 ALLOWED_HOSTS = [
     'acme-pro.herokuapp.com',
