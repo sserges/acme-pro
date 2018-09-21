@@ -1,0 +1,16 @@
+{% extends 'layouts/base.html' %}
+
+{% load static %}
+
+{% block title %}
+	Homepage | {{ block.super }}
+{% endblock %}
+
+{% block content %}
+	<h1>Hello Acme</h1>
+
+	<p>
+		<a href="{% url 'blog:index' %}">Visiter notre Blog</a>
+	</p>
+
+{% endblock %}
