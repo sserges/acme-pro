@@ -26,8 +26,7 @@ SECRET_KEY = '4(am-&65twfjzil0r@ofs9*i(@$-haabz^soipw(&o0n$wl^aq'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    # 'localhost',
-    # '127.0.0.1',
+    'acme-pro.herokuapp.com',
 ]
 
 
